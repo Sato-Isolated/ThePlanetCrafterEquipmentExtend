@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{82820599-E76D-429B-A54D-BD00FE1D3E6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ThePlanetCrafterEquipmentExtend</RootNamespace>
+    <AssemblyName>ThePlanetCrafterEquipmentExtend</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="EquipmentExtender.cs" />
+    <Compile Include="MyEventTrigger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\BepInEx_win_x64_5.4.23.3\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\BepInEx_win_x64_5.4.23.3\BepInEx\core\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\BepInEx_win_x64_5.4.23.3\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Unity.Netcode.Runtime">
+      <HintPath>..\..\..\BepInEx_win_x64_5.4.23.3\BepInEx\core\Unity.Netcode.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\The Planet Crafter\Planet Crafter_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\BepInEx_win_x64_5.4.23.3\BepInEx\core\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\BepInEx_win_x64_5.4.23.3\BepInEx\core\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

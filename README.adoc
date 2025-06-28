@@ -1,0 +1,23 @@
+= The Planet Crafter Equipment Extend
+
+This mod is an improved version of link:https://www.nexusmods.com/planetcrafter/mods/37?tab=description[Equipment Extender] by crazymetal.
+
+Feature::
+- Added the ability to equip multiple boots and exoskeletons at the same time
+
+== Compilation
+
+To compile this library yourself, you need to reference the following files:
+
+From your BepInEx folder:
+
+- 0Harmony.dll
+- BepInEx
+
+From the game folder (e.g. `C:\Program Files (x86)\Steam\steamapps\common\The Planet Crafter\Planet Crafter_Data\Managed`):
+
+- Assembly-CSharp.dll
+- Unity.Netcode.Runtime.dll
+- UnityEngine.dll
+- UnityEngine.CoreModule.dll
+- UnityEngine.UI.dll
